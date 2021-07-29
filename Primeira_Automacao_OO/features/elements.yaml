@@ -1,0 +1,22 @@
+#Página login
+botaoLogin: ".login"
+email: "#email"
+senha: "#passwd"
+botaoSubmit: "#SubmitLogin"
+
+#Página homepage
+produto: "img[alt='Faded Short Sleeve T-shirts']"
+botaoAdicionarCarrinho: ".exclusive"
+botaoIrCheckout: "a[title='Proceed to checkout']"
+
+#Páginas checkout
+botaoPaginaAutenticacao: "a[title='Proceed to checkout']"
+botaoPaginaEndereco: "button[name='processAddress']"
+checkbox: ".checker"
+pagarComBoleto: ".bankwire"
+botaoPagamento: "button[name='processCarrier']"
+#botaoFinalizarPedido: "'span', text: "I confirm my order""
+#checkboxTermos: ".checker"
+#pagarBoleto: ".bankwire"
+#botaoPagamento:  "button[name='processCarier']"
+#confirmarPedido: "'span', text: "I confirm my order""
