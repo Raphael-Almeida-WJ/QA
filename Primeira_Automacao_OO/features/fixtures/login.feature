@@ -12,17 +12,17 @@ Funcionalidade: Login
         Quando o usuario preencher campos de login e senha
         Então deve ser redirecionado a pagina de my account
 
-    @logincomsucesso
+    @loginsenhaerrada
     Cenario: Senha errada
         Quando o usuario preencher campos com a senha errada
         Então deve ver uma mensagem de erro dizendo que a autenticacao falhou
 
-    @logincomsucesso
+    @loginusuarionaoexiste
     Cenario: Usuário não existe
         Quando o usuario preencher campos com um login nao cadastrado
         Então deve ver uma mensagem de erro dizendo que a autenticacao falhou
 
-    @logincomsucesso
+    @loginemailinvalido
     Cenario: Email incorreto
         Quando o usuario preencher campos com um email invalido
         Então deve ver uma mensagem de erro dizendo que o email e invalido

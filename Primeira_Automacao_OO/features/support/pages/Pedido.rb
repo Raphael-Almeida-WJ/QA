@@ -7,3 +7,5 @@ class Pedido
         expect(page).to have_text "Your order on My Store is complete."
     end    
 end
+
+

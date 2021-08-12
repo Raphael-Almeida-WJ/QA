@@ -29,6 +29,8 @@ include RSpec::Matchers
         find(EL["email"]).set "mathias@gmail.com"
         find(EL["senha"]).set  "123456"
         find(EL["botaoSubmit"]).click
+
+
     end
 
     def preencher_campos_login_email_nao_cadastrado
